@@ -31,6 +31,7 @@ All of this data is stored **ONLY on your device**. We never see it, we never co
 - No usage analytics or tracking
 - No advertising or ad networks
 - No data sent to our servers (we don't even have servers)
+- Camera is used for receipt scanning only
 
 ---
 
@@ -48,7 +49,7 @@ If you enable Face ID or fingerprint protection, this authentication is handled 
 
 ## Camera and Photo Access
 
-Billula may request access to your camera and photo library to let you attach receipt photos to expenses. These photos are stored locally on your device and are never uploaded or shared.
+Billula may request access to your camera and photo library to let you attach receipt photos to expenses. These photos are stored locally on your device and are never uploaded or shared. Camera is used for receipt scanning only.
 
 ---
 
