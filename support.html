@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Billula Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #1a73e8;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .tagline {
+            color: #666;
+            font-size: 1.1rem;
+        }
+
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #1a73e8;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 .icon {
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .contact-method {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .contact-method:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-icon {
+            font-size: 24px;
+            margin-right: 15px;
+        }
+
+        .contact-info h3 {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        .contact-info span {
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 20px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .faq-item:first-child {
+            padding-top: 0;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.05rem;
+        }
+
+        .faq-answer {
+            color: #666;
+            font-size: 0.95rem;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            padding: 10px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        .feature-list .check {
+            color: #34a853;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">💰</div>
+            <h1>Billula Support</h1>
+            <p class="tagline">Know where your money goes</p>
+        </header>
+
+        <div class="card">
+            <h2><span class="icon">📧</span> Contact Us</h2>
+            <p>Have a question, found a bug, or want to suggest a feature? We'd love to hear from you!</p>
+
+            <a href="mailto:support@viakron.com" class="contact-method">
+                <span class="contact-icon">✉️</span>
+                <div class="contact-info">
+                    <h3>Email Support</h3>
+                    <span>support@billula.app</span>
+                </div>
+            </a>
+
+            <a href="https://github.com/billula-app/billula/issues" class="contact-method">
+                <span class="contact-icon">🐛</span>
+                <div class="contact-info">
+                    <h3>Report a Bug</h3>
+                    <span>GitHub Issues</span>
+                </div>
+            </a>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">❓</span> Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I add an expense?</div>
+                <div class="faq-answer">Tap the + button on the home screen, enter the amount and select a category. You can also scan a receipt using the camera icon for automatic data entry.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Can I set up recurring bills?</div>
+                <div class="faq-answer">Yes! Go to Settings > Scheduled Bills to add recurring expenses like rent, subscriptions, or utility bills. Billula will remind you when they're due.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I export my data?</div>
+                <div class="faq-answer">Go to Settings > Export Expenses to download your expense history as a CSV file that you can open in Excel or Google Sheets.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Is my data secure?</div>
+                <div class="faq-answer">All your data is stored locally on your device. We don't have access to your financial information. You can also enable biometric authentication for added security.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">How do I set a budget?</div>
+                <div class="faq-answer">Tap the "Budgets" button on the home screen to set monthly spending limits for different categories. You'll receive alerts when you're approaching your limits.</div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">What is Advanced Mode?</div>
+                <div class="faq-answer">Advanced Mode unlocks additional features like receipt scanning, payment method tracking, expense profiles, and more detailed analytics. You can enable it in Settings.</div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">✨</span> App Features</h2>
+            <ul class="feature-list">
+                <li><span class="check">✓</span> Track daily expenses with ease</li>
+                <li><span class="check">✓</span> Scan receipts with OCR technology</li>
+                <li><span class="check">✓</span> Set and monitor budgets by category</li>
+                <li><span class="check">✓</span> Schedule recurring bills and get reminders</li>
+                <li><span class="check">✓</span> View insights and spending analytics</li>
+                <li><span class="check">✓</span> Export data to CSV</li>
+                <li><span class="check">✓</span> Secure with biometric authentication</li>
+                <li><span class="check">✓</span> Works offline - all data stored locally</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2><span class="icon">📱</span> System Requirements</h2>
+            <p><strong>iOS:</strong> Requires iOS 13.0 or later. Compatible with iPhone and iPad.</p>
+            <p><strong>Android:</strong> Requires Android 6.0 or later.</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Billula. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>
