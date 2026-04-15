@@ -13,4 +13,4 @@ Billula is a privacy-focused expense tracking app. All data is stored locally on
 
 ## Contact
 
-Email: fitz.edwards@gmail.com
+Email: support@viakron.com
